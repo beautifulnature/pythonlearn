@@ -1,5 +1,5 @@
 from turtle import *
 shape('turtle')
-forward(200)
-left(45)
-forward(200)
+forward(300)
+left(-180)
+forward(300)
