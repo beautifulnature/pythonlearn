@@ -1,9 +1,21 @@
+# Create the turtle
+# Go 150 steps forward
+# Turn 120 degrees left
+# Go 150 steps forward
+# Turn 120 degrees left
+# Go 150 steps forward
+# Turn 120 degrees left
+# Turn 60 degrees right
+# Draw a circle with radius 87
+
 from turtle import *
 shape('turtle')
-pensize(8)
-color('gold')
-pendown()
-goto(100, 0)
-goto(0, -100)
-goto(100, -100)
-hideturtle()
+forward(150)
+left(120)
+forward(150)
+left(120)
+forward(150)
+left(120)
+right(60)
+circle(87)
+
